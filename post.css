@@ -1,0 +1,52 @@
+html,body{
+    width: 100%;
+    margin: auto;
+  }
+  
+  h2{
+    text-align: center;
+  }
+  
+  .createpost{
+    border: 3px solid #f1f1f1;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+  }
+  input[type=text]{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[name=txtbody]{
+    height:25%;
+  }
+  button[name=btnpost],button[name=close]{
+    background-color:blanchedalmond;
+    color: black;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover{
+    opacity: 0.5;
+  }
+  .post-wraper{
+    padding-top: 20px;
+  }
+  
+  #frmpost {
+    border-radius: 25px;
+    display: none;
+    position:fixed;
+    width: 60%;
+    background-color: white;
+    border: 3px solid #f1f1f1;
+    z-index: 10;
+  }

@@ -1,0 +1,63 @@
+html,body{
+    width: 100%;
+    margin: auto;
+}
+.profileedit{
+    width: 900px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding: 25px 0;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+.profileedit img{
+    border-radius: 50%;
+    border: 5px solid #f1f1f1;
+}
+
+.profileedit .round{
+    position: relative;
+    bottom: 30px;
+    right: 380px;
+    float: right;
+    background: #888c96;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileedit .round input[type = "file"]{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+}
+
+.profileedit .name {
+    position: relative;
+    line-height: 30px;
+    border-radius: 8px;
+    display: block;
+    width: 70%;
+    padding-left: 15px;
+    margin: auto;
+}
+.profileedit .dob{
+    position: relative;
+    line-height: 30px;
+    border-radius: 8px;
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.profileedit input[type ='submit']{
+    width: 50%;
+    position: relative;
+    border-radius: 10px;
+}
+.profileedit input[type ='submit']:hover{
+    background-color: rgba(250, 235, 215, 0.401);
+}
